@@ -1,0 +1,171 @@
+/* 
+
+=== Typography === 
+*/
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18pt;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Teko';
+    font-size: 72pt;
+    color: black;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+header {
+    background-color: #000000;
+    padding: 15px;
+    color: white;
+}
+
+footer {
+    font-style: oblique;
+    font-size: 10pt;
+    color: white;
+}
+
+p {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-size: 14pt;
+}
+
+/* 
+=== Backgrounds === 
+*/
+
+
+
+#splash {
+    background-image: url(heading.jpg);
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+}
+
+main {
+    background: #cdcdcd;
+}
+
+/* 
+
+=== Box Model === 
+*/
+header {
+    width: 100%;
+    text-align: center;
+    padding:10px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+
+
+#splash {
+    width: 1000px;
+    height: 400px;
+}
+
+#foodarticles {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+article{
+    margin-bottom: 20px;
+}
+aside {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* 
+
+
+
+/* 
+===layout === 
+*/
+
+.floatleft {
+    float: left;
+    margin-right: 20pt;
+    margin-bottom: 20pt;
+}
+
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+aside {
+    margin-left: 50px;
+}
+
+#container {
+    width: 1000px;
+    padding: 50px;
+    margin: auto;
+}
+
+#advertisment {
+    background-color: red;
+    position: fixed;
+    padding:30px;
+    bottom: 0px;
+    width: 300px;
+    right: 0px;
+    height: 200px;
+    
+}
+
+footer {
+    margin-left: 0px;
+}
+main{
+    
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+header{
+    position:fixed;
+    left:0px;
+    top:0px;
